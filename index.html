@@ -5,17 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Todo List</title>
   <link rel="stylesheet" href="style.css">
+  <script src="js/index.js" type="module"
+  defer></script>
 </head>
 <body>
   <div id="app">
      <div class="inputData">
-       <input placeholder="Digite sua tarefa" type="text" name="" id="">
-       <button>&larr;</button> 
+       <input id="InputText"  value="" placeholder="Digite sua tarefa" type="text" name="" id="">
+       <button id="add-task" >&larr;</button> 
      </div>
 
      <div class="task-list">
-        <div class="task"><span>Conteudo da task</span><button>x</button></div>
-        <div class="task"><span>Conteudo da task 2</span><button>x</button></div>
+        <div class="task"><span>Conteudo da task</span><button class="remove-item">x</button></div>
+        <div class="task"><span>Conteudo da task 2</span><button class="remove-item">x</button></div>
      </div>
   </div>
 </body>
