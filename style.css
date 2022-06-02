@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+}
+body *{
+  font-size: 1.6rem;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+}
+
+#app{
+border: 1px solid black;
+padding: 3rem;
+}
+
+.inputData{
+  margin-bottom: 2rem;
+}
+
+.task-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  border: 1px solid black;
+  padding: .3rem;
+}
+
+.task{
+  display: flex;
+  justify-content: space-between;
+  padding: .5rem;
+  border: 2px solid black;
+}
